@@ -1,16 +1,11 @@
 package com.test;
 
-import com.inputData.InputUser;
-import com.outputData.OutputUser;
-import com.service.Calculation;
-
-import java.io.IOException;
+import com.inputData.InputData;
+import com.outputData.OutputData;
 
 public class CalculatorTest {
-    public static void main(String[] args) throws IOException {
-
-        OutputUser outputUser = new OutputUser();
-        outputUser.outputResult();
-
+    public static void main(String[] args) {
+            OutputData outputUser = new OutputData();
+            outputUser.outputResult();
     }
 }
